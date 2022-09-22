@@ -23,7 +23,10 @@ function crearClasePersona() {
       // No debe retornar nada.
 
       // Tu código aca:
-
+      this.amigos.push({
+        nombre: nombre,
+        edad: edad
+      })
     }
 
     addHobby(hobby) {
