@@ -69,7 +69,8 @@ function crearClasePersona() {
       // persona.getPromedioEdad() debería devolver 29 ya que (33 + 25) / 2 = 29
 
       // Tu código aca:
-
+      let arrayNum = this.amigos.map( (element) => (element.edad) )
+      return arrayNum.reduce( (a,b) => ((a + b) / arrayNum.length) )
     }
   };
 
