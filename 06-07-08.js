@@ -44,7 +44,7 @@ function crearClasePersona() {
       // persona.getFriends() debería devolver ['martin', 'toni']
 
       // Tu código aca:
-
+      return this.amigos.map( (element) => (element.nombre) )
     }
 
     getHobbies() {
