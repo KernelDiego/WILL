@@ -53,7 +53,7 @@ function crearClasePersona() {
       // persona.getHobbies() debe devolver ['correr', 'dormir', 'nadar']
 
       // Tu código aca:
-
+      return this.hobbies.map((element) => element)
     }
 
     getPromedioEdad() {
